@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+.cls{
+    clear: both;
+}
+nav{
+  background-color: teal;  
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+/*    overflow: hidden; */
+    
+}
+.logo{
+    width: 30%;
+    float: left;
+    margin-top: 5px;
+}
+
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    height: 60px;
+    width: 100px;
+    line-height: 60px;
+    text-align: center;
+    transition: all linear .3s;
+}
+.menu ul li:hover{
+    background-color: indigo;
+    transition: all linear .3s;
+}
+.menu ul li a{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    display: block;
+
+}
+
+/*menu part css end*/
+
+/*banner part css start */
+.banner{
+    background: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.banner_overlay{
+    padding: 200px 0;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.banner_con{
+    color: #fff;
+}
+.banner_con h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+.banner_con h5{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+    color: yellow;
+}
+.button a{
+    padding: 12px 25px;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+/*banner part css end*/
+
+/*about part css stat*/
+#about{
+   padding: 40px 0; 
+}
+.about_head h2{
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 10px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: monospace;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 20px;
+    
+}
+.about_img{
+    width: 45%;
+    float: left;
+}
+.about_img img{
+    width: 100%;
+}
+.about_con{
+    float: left;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 40px;
+    text-align: justify;
+}
+.about_con h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+/*    border-bottom: 3px solid black;*/
+}
+.about_con p{
+    line-height: 25px;
+    
+}
+/*about part css end*/
+
+/*gallery part css start */
+.g_he h2{
+    color: #fff;
+/*    background-color: darkgreen;*/
+}
+.gly_img{
+    width: 32%;
+    float: left;
+    margin: 30px 0;
+    position: relative;
+    margin-right: 13px;
+    overflow: hidden;
+}
+.gly_img img{
+    width: 100%;
+}
+
+/*gallery part css end */
+
+/*footer part css start */
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+/*footer part css end*/
